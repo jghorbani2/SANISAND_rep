@@ -1,0 +1,53 @@
+Property: G0 125.0
+Property: K0 150.0
+Property: Mc 1.25
+Property: Lambda 0.37
+Property: N_c 18.7
+Property: alpha_c 3370
+Property: n_b 1.25
+Property: ch 0.968
+Property: n_d 2.3
+Property: h0 12.0
+Property: A0 0.4
+Property: Me 0.89
+Property: cz 600
+Property: zmax 4
+Property: m_iso 0.01
+Property: Patm 100.0
+Property: P_min 1.0e-1
+Property: FTOL 1.0e-5
+Property: STOL 1.0e-5
+Property: LTOL 1.0e-6
+
+StateVariable: VoidRatio 0.907
+StateVariable: StressXX -1000.0
+StateVariable: StressYY -1000.0
+StateVariable: StressZZ -1000.0
+StateVariable: StressZY 0.0
+StateVariable: StressZX 0.0
+StateVariable: StressXY 0.0
+
+CustomVariable: AlphaXX 0.0
+CustomVariable: AlphaYY 0.0
+CustomVariable: AlphaZZ 0.0
+CustomVariable: AlphaZY 0.0
+CustomVariable: AlphaZX 0.0
+CustomVariable: AlphaXY 0.0
+CustomVariable: AlphaInitialXX 0.0
+CustomVariable: AlphaInitialYY 0.0
+CustomVariable: AlphaInitialZZ 0.0
+CustomVariable: AlphaInitialZY 0.0
+CustomVariable: AlphaInitialZX 0.0
+CustomVariable: AlphaInitialXY 0.0
+CustomVariable: ZXX 0.0
+CustomVariable: ZYY 0.0
+CustomVariable: ZZZ 0.0
+CustomVariable: ZZY 0.0
+CustomVariable: ZZX 0.0
+CustomVariable: ZXY 0.0
+CustomVariable: eps_p_q 0.0
+
+AnalysisType: 1
+NumSteps: 2500
+EpsilonYY: -1.0e-4
+
