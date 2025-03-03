@@ -362,8 +362,8 @@ int main() {
                 auto [computed_dLambda, computed_DPara, computed_NMAT] = model.ComputeDlambda(
                     Sigma0, DStress_ela, DT, kinematicHardeningVector, Zvec, alphaInitial, specificVoid, deltaStrain);
 
-                DLAM = computed_dLambda;  // Updated consistency parameter
-                DDD  = computed_DPara;     // Updated hardening modulus (or DPara)
+                DLAM = computed_dLambda;  // Updated dlambda
+                DDD  = computed_DPara;     // Updated dilatancy modulus 
                 NMAT = computed_NMAT;
         }
 
